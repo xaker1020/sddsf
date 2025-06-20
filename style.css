@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.btn {
+    border-radius: 30px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 14px 30px;
+    color: white;
+    background-color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 0;
+}
+
+.hero-text {
+    width: 613px;
+}
+
+h1 {
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 137%;
+    letter-spacing: -1%;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -1%;
+
+}
+
+h2 span {
+    color: black;
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -1%;
+
+}
+
+p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 190%;
+    margin-top: 30px;
+    letter-spacing: 0%;
+    color: black;
+}
+
+h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 137%;
+    letter-spacing: -1%;
+    color: white;
+    margin-top: 18px;
+}
+
+.icons {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon i {
+    font-size: 30px;
+    color: white;
+}
+.caruesel{
+    width: 459px;
+    height: 500px
+}
+swiper-slide {
+    text-align: center;
+ font-size:  18px;
+display: flex;
+ justify-content: • center;
+  align-items: center;
+}
+swiper-slide img {
+    display: block; 
+width: 100%; 
+height: - 100%;
+object-fit: cover;
+}
+swiper-container{
+    width: 100%;
+    height: 100%;
+}
